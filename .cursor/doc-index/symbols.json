@@ -1,0 +1,26 @@
+{
+  "Button": [
+    {
+      "path": "standards/UI_DESIGN_SYSTEM_STANDARD.md",
+      "heading": "Naming",
+      "start_line": 189,
+      "snippet": "### Naming **Component names:** - PascalCase: `Button`, `DataTable` - Folder: PascalCase **File names:** - Component: `Button.tsx` - Styles: `Button.module.scss` - Types: `Button.t"
+    }
+  ],
+  "DataTable": [
+    {
+      "path": "standards/UI_DESIGN_SYSTEM_STANDARD.md",
+      "heading": "Naming",
+      "start_line": 189,
+      "snippet": "### Naming **Component names:** - PascalCase: `Button`, `DataTable` - Folder: PascalCase **File names:** - Component: `Button.tsx` - Styles: `Button.module.scss` - Types: `Button.t"
+    }
+  ],
+  "ComponentName": [
+    {
+      "path": "standards/UI_DESIGN_SYSTEM_STANDARD.md",
+      "heading": "Naming",
+      "start_line": 189,
+      "snippet": "### Naming **Component names:** - PascalCase: `Button`, `DataTable` - Folder: PascalCase **File names:** - Component: `Button.tsx` - Styles: `Button.module.scss` - Types: `Button.t"
+    }
+  ]
+}

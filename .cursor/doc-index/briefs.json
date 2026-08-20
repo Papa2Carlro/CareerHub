@@ -1,0 +1,643 @@
+{
+  "CareerGraph_Codebase_Analysis.md": {
+    "path": "CareerGraph_Codebase_Analysis.md",
+    "title": "CareerGraph Codebase Analysis",
+    "status": "",
+    "layer": "other",
+    "source_class": "documentation",
+    "source_role": "docs_tree",
+    "package_scope": null,
+    "authored": "human",
+    "canonicality": 1.0,
+    "workspace_rel": "CareerGraph_Codebase_Analysis.md",
+    "canonical_path": "CareerGraph_Codebase_Analysis.md",
+    "first_paragraph": "**Status:** Reverse engineering from existing workspace **Date:** 2026-08-19 **Warning:** Documenting ONLY what is actually present. Unknown/Not implemented marked as TODO/Unknown",
+    "toc": [
+      {
+        "level": 1,
+        "title": "CareerGraph Codebase Analysis"
+      },
+      {
+        "level": 2,
+        "title": "1. Project Structure Overview"
+      },
+      {
+        "level": 3,
+        "title": "What actually exists"
+      },
+      {
+        "level": 3,
+        "title": "Technology Stack - Observed"
+      },
+      {
+        "level": 3,
+        "title": "Responsibility Map"
+      },
+      {
+        "level": 2,
+        "title": "2. Frontend Architecture"
+      },
+      {
+        "level": 3,
+        "title": "Analysis Result"
+      },
+      {
+        "level": 2,
+        "title": "3. Backend Architecture"
+      },
+      {
+        "level": 3,
+        "title": "Analysis Result"
+      },
+      {
+        "level": 2,
+        "title": "4. Domain Model"
+      },
+      {
+        "level": 3,
+        "title": "Planned Entities from Docs"
+      },
+      {
+        "level": 2,
+        "title": "5. Database"
+      },
+      {
+        "level": 3,
+        "title": "Existing DB"
+      },
+      {
+        "level": 3,
+        "title": "Planned DB"
+      },
+      {
+        "level": 2,
+        "title": "6. API Documentation"
+      },
+      {
+        "level": 2,
+        "title": "7. Code Style Guide"
+      },
+      {
+        "level": 3,
+        "title": "Frontend Style (from docs)"
+      },
+      {
+        "level": 2,
+        "title": "8. Existing Design Decisions"
+      },
+      {
+        "level": 3,
+        "title": "Observed Decisions"
+      },
+      {
+        "level": 2,
+        "title": "9. Technical Debt"
+      },
+      {
+        "level": 3,
+        "title": "Critical"
+      },
+      {
+        "level": 3,
+        "title": "Medium"
+      },
+      {
+        "level": 3,
+        "title": "Low"
+      },
+      {
+        "level": 2,
+        "title": "10. Development Workflow"
+      },
+      {
+        "level": 3,
+        "title": "Current Workflow"
+      },
+      {
+        "level": 2,
+        "title": "11. Architecture Summary"
+      },
+      {
+        "level": 3,
+        "title": "For New Senior Engineer - First 30 Minutes"
+      },
+      {
+        "level": 2,
+        "title": "Conclusion"
+      }
+    ],
+    "must_lines": [],
+    "char_count": 9171
+  },
+  "CareerGraph_Engineering_Standards.md": {
+    "path": "CareerGraph_Engineering_Standards.md",
+    "title": "CareerGraph Engineering Standards",
+    "status": "",
+    "layer": "other",
+    "source_class": "documentation",
+    "source_role": "docs_tree",
+    "package_scope": null,
+    "authored": "human",
+    "canonicality": 1.0,
+    "workspace_rel": "CareerGraph_Engineering_Standards.md",
+    "canonical_path": "CareerGraph_Engineering_Standards.md",
+    "first_paragraph": "**Status:** Standards defined from documentation canon **Date:** 2026-08-19 **Note:** These standards are based on documented intentions, not enforced code",
+    "toc": [
+      {
+        "level": 1,
+        "title": "CareerGraph Engineering Standards"
+      },
+      {
+        "level": 2,
+        "title": "1. Project Setup Requirements"
+      },
+      {
+        "level": 3,
+        "title": "Technology Stack (Planned)"
+      },
+      {
+        "level": 3,
+        "title": "Repository Structure"
+      },
+      {
+        "level": 2,
+        "title": "2. Frontend Standards"
+      },
+      {
+        "level": 3,
+        "title": "File Organization"
+      },
+      {
+        "level": 3,
+        "title": "Naming Conventions"
+      },
+      {
+        "level": 3,
+        "title": "TypeScript Rules"
+      },
+      {
+        "level": 3,
+        "title": "Styling Standards"
+      },
+      {
+        "level": 3,
+        "title": "Imports Ordering"
+      },
+      {
+        "level": 3,
+        "title": "Hooks Rules"
+      },
+      {
+        "level": 3,
+        "title": "State Management"
+      },
+      {
+        "level": 3,
+        "title": "Form Handling"
+      },
+      {
+        "level": 3,
+        "title": "Error Handling"
+      },
+      {
+        "level": 2,
+        "title": "3. Backend Standards"
+      },
+      {
+        "level": 3,
+        "title": "Rust Tauri Standards"
+      },
+      {
+        "level": 3,
+        "title": "Database Standards"
+      },
+      {
+        "level": 3,
+        "title": "API Layer"
+      },
+      {
+        "level": 2,
+        "title": "4. Code Quality"
+      },
+      {
+        "level": 3,
+        "title": "Formatting"
+      },
+      {
+        "level": 3,
+        "title": "Linting"
+      },
+      {
+        "level": 3,
+        "title": "Git"
+      },
+      {
+        "level": 2,
+        "title": "5. Development Workflow"
+      },
+      {
+        "level": 3,
+        "title": "Local Development"
+      },
+      {
+        "level": 1,
+        "title": "Frontend"
+      },
+      {
+        "level": 1,
+        "title": "Backend"
+      },
+      {
+        "level": 1,
+        "title": "Database"
+      },
+      {
+        "level": 1,
+        "title": "SQLite file created automatically"
+      },
+      {
+        "level": 1,
+        "title": ".env.local"
+      },
+      {
+        "level": 3,
+        "title": "Testing"
+      },
+      {
+        "level": 3,
+        "title": "Build & Release"
+      },
+      {
+        "level": 2,
+        "title": "6. Feature Creation Contract"
+      },
+      {
+        "level": 3,
+        "title": "How to create a feature"
+      },
+      {
+        "level": 3,
+        "title": "Where business logic lives"
+      },
+      {
+        "level": 3,
+        "title": "Forbidden patterns"
+      },
+      {
+        "level": 3,
+        "title": "Required patterns"
+      },
+      {
+        "level": 2,
+        "title": "7. Dangerous Areas"
+      },
+      {
+        "level": 3,
+        "title": "Critical rules"
+      },
+      {
+        "level": 2,
+        "title": "8. Engineering Principles"
+      },
+      {
+        "level": 3,
+        "title": "Core principles"
+      }
+    ],
+    "must_lines": [
+      "Local-first - must work offline"
+    ],
+    "char_count": 11355
+  },
+  "CareerGraph_Product_Documentation.md": {
+    "path": "CareerGraph_Product_Documentation.md",
+    "title": "CareerGraph — Початкова продуктова документація",
+    "status": "",
+    "layer": "other",
+    "source_class": "documentation",
+    "source_role": "docs_tree",
+    "package_scope": null,
+    "authored": "human",
+    "canonicality": 1.0,
+    "workspace_rel": "CareerGraph_Product_Documentation.md",
+    "canonical_path": "CareerGraph_Product_Documentation.md",
+    "first_paragraph": "**CareerGraph** — система управління професійним профілем та прийняття кар'єрних рішень.",
+    "toc": [
+      {
+        "level": 1,
+        "title": "CareerGraph — Початкова продуктова документація"
+      },
+      {
+        "level": 2,
+        "title": "1. Overview"
+      },
+      {
+        "level": 2,
+        "title": "2. Problem Statement"
+      },
+      {
+        "level": 2,
+        "title": "3. Vision"
+      },
+      {
+        "level": 2,
+        "title": "4. Core Principles"
+      },
+      {
+        "level": 3,
+        "title": "4.1. Правда над красою"
+      },
+      {
+        "level": 3,
+        "title": "4.2. Structured data over documents"
+      },
+      {
+        "level": 3,
+        "title": "4.3. Evidence-based skills"
+      },
+      {
+        "level": 3,
+        "title": "4.4. Профілі замість одного CV"
+      },
+      {
+        "level": 3,
+        "title": "4.5. Аналітика пошуку"
+      },
+      {
+        "level": 2,
+        "title": "5. Main Entities"
+      },
+      {
+        "level": 3,
+        "title": "5.1. Professional Memory"
+      },
+      {
+        "level": 3,
+        "title": "5.2. Vacancy Intelligence"
+      },
+      {
+        "level": 3,
+        "title": "5.3. Matching Engine"
+      },
+      {
+        "level": 3,
+        "title": "5.4. Positioning Profiles"
+      },
+      {
+        "level": 3,
+        "title": "5.5. Application Tracking"
+      },
+      {
+        "level": 3,
+        "title": "5.6. Market Intelligence"
+      },
+      {
+        "level": 2,
+        "title": "6. MVP Scope"
+      },
+      {
+        "level": 3,
+        "title": "6.1. Платформа"
+      },
+      {
+        "level": 3,
+        "title": "6.2. Архітектура та код стайл"
+      },
+      {
+        "level": 3,
+        "title": "6.3. Backend Rust архітектура"
+      },
+      {
+        "level": 3,
+        "title": "6.4. Модулі MVP"
+      },
+      {
+        "level": 3,
+        "title": "6.5. Відкриті питання MVP"
+      },
+      {
+        "level": 2,
+        "title": "7. Future Extensions"
+      },
+      {
+        "level": 2,
+        "title": "8. Non-goals"
+      }
+    ],
+    "must_lines": [],
+    "char_count": 12065
+  },
+  "standards/UI_DESIGN_SYSTEM_STANDARD.md": {
+    "path": "standards/UI_DESIGN_SYSTEM_STANDARD.md",
+    "title": "UI Design System Standard",
+    "status": "",
+    "layer": "other",
+    "source_class": "documentation",
+    "source_role": "docs_tree",
+    "package_scope": null,
+    "authored": "human",
+    "canonicality": 1.0,
+    "workspace_rel": "standards/UI_DESIGN_SYSTEM_STANDARD.md",
+    "canonical_path": "standards/UI_DESIGN_SYSTEM_STANDARD.md",
+    "first_paragraph": "**Status:** Universal engineering contract **Date:** 2026-08-19 **Scope:** Project-independent UI system protocol",
+    "toc": [
+      {
+        "level": 1,
+        "title": "UI Design System Standard"
+      },
+      {
+        "level": 2,
+        "title": "1. Philosophy"
+      },
+      {
+        "level": 2,
+        "title": "2. Design Tokens"
+      },
+      {
+        "level": 3,
+        "title": "Colors"
+      },
+      {
+        "level": 3,
+        "title": "Typography"
+      },
+      {
+        "level": 3,
+        "title": "Spacing"
+      },
+      {
+        "level": 3,
+        "title": "Radius"
+      },
+      {
+        "level": 3,
+        "title": "Shadows"
+      },
+      {
+        "level": 3,
+        "title": "Animation"
+      },
+      {
+        "level": 2,
+        "title": "3. Component Architecture"
+      },
+      {
+        "level": 3,
+        "title": "Folder Structure"
+      },
+      {
+        "level": 3,
+        "title": "Naming"
+      },
+      {
+        "level": 2,
+        "title": "4. Styling Rules"
+      },
+      {
+        "level": 3,
+        "title": "CSS Modules / SCSS Modules"
+      },
+      {
+        "level": 3,
+        "title": "classnames/bind"
+      },
+      {
+        "level": 3,
+        "title": "Specificity"
+      },
+      {
+        "level": 2,
+        "title": "5. Component Categories"
+      },
+      {
+        "level": 3,
+        "title": "Atoms"
+      },
+      {
+        "level": 3,
+        "title": "Molecules"
+      },
+      {
+        "level": 3,
+        "title": "Organisms"
+      },
+      {
+        "level": 2,
+        "title": "6. Required Core Components"
+      },
+      {
+        "level": 3,
+        "title": "Controls"
+      },
+      {
+        "level": 3,
+        "title": "Feedback"
+      },
+      {
+        "level": 3,
+        "title": "Navigation"
+      },
+      {
+        "level": 3,
+        "title": "Layout"
+      },
+      {
+        "level": 3,
+        "title": "Data Display"
+      },
+      {
+        "level": 2,
+        "title": "7. Component API Rules"
+      },
+      {
+        "level": 3,
+        "title": "Props Standard"
+      },
+      {
+        "level": 3,
+        "title": "State Variants"
+      },
+      {
+        "level": 3,
+        "title": "Accessibility Minimum"
+      },
+      {
+        "level": 2,
+        "title": "8. Migration Strategy"
+      },
+      {
+        "level": 3,
+        "title": "Phase 1: Tokens"
+      },
+      {
+        "level": 3,
+        "title": "Phase 2: Atomic Components"
+      },
+      {
+        "level": 3,
+        "title": "Phase 3: Replace Duplicated Patterns"
+      },
+      {
+        "level": 3,
+        "title": "Phase 4: Remove Old Styles"
+      },
+      {
+        "level": 3,
+        "title": "Migration Principles"
+      },
+      {
+        "level": 2,
+        "title": "9. UI Review Checklist"
+      },
+      {
+        "level": 2,
+        "title": "10. Framework Independence"
+      },
+      {
+        "level": 3,
+        "title": "Design System is Framework-Agnostic"
+      },
+      {
+        "level": 3,
+        "title": "Implementation Mapping"
+      }
+    ],
+    "must_lines": [
+      "Accessibility by default** - All components must be accessible",
+      "Rule:** Components must be composable, not monolithic.",
+      "Must exist:**",
+      "Every component must support:**",
+      "Every component must handle:**",
+      "Every component must be:**",
+      "Before merge, component must:**",
+      "Any new UI must conform.**"
+    ],
+    "char_count": 14430
+  },
+  "ext/config/project-mcp-pin.md": {
+    "path": "ext/config/project-mcp-pin.md",
+    "title": "Config truth — project_mcp_pin",
+    "status": "",
+    "layer": "process",
+    "source_class": "config_truth",
+    "source_role": "project_mcp_pin",
+    "package_scope": null,
+    "authored": "human",
+    "canonicality": 0.9,
+    "workspace_rel": ".cursor/mcp.json",
+    "canonical_path": ".cursor/mcp.json",
+    "first_paragraph": "workspace_rel: `.cursor/mcp.json` source_class: `config_truth` source_role: `project_mcp_pin`",
+    "toc": [
+      {
+        "level": 1,
+        "title": "Config truth — project_mcp_pin"
+      },
+      {
+        "level": 2,
+        "title": "Doc Hub pin notes"
+      }
+    ],
+    "must_lines": [],
+    "char_count": 742
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "fingerprint": "51576f599cc57f9c",
+  "built_at": "2026-08-19T20:11:54.346258+00:00",
+  "workspace": "/Users/maksympryimak/CareerHub",
+  "docs_root": "/Users/maksympryimak/CareerHub/Docs",
+  "file_count": 5,
+  "chunk_count": 144,
+  "route_count": 0,
+  "map_section_count": 0,
+  "symbol_count": 3,
+  "code_path_count": 0,
+  "canonical_home_count": 0,
+  "link_count": 0,
+  "source_counts": {
+    "documentation": 4,
+    "config_truth": 1
+  },
+  "extra_source_count": 1
+}
